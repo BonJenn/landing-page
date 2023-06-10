@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: white;
+    margin: 10px;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: auto;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
