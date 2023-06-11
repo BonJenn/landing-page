@@ -4,23 +4,31 @@
     box-sizing: border-box;
 }
 
-h2 {
-    color: white;
-    margin: 10px;
-}
+
+/* This is the header and nav bar */
 
 .header {
     display: flex;
     background-color: #1F2937;
-    height: 400px;
+    height: 350px;
     width: 100%;
     margin: 0;
     flex-direction: column;
+    justify-content: center;
+}
+
+#header_logo_text {
+    font-size: 24px;
+    color: white;
+    padding 10px;
+    margin-left: 20px;
+
 }
 
 .navigation {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .nav_bar {
@@ -30,9 +38,63 @@ h2 {
     margin-left: auto;
     align-items: center;
     list-style: none;
+    margin-right: 10px;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 30px;
+}
+
+.hero_title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+    
+}
+
+
+.hero_website_copy {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero_description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign_up_button {
+    max-width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.placeholder_image {
+    display: flex;
+    width: 320px;
+    height: 150px;
+    background-color: #a0a2a5;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_text {
+    color: black;
 }
