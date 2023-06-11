@@ -2,6 +2,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
+    min-width: 800px;
 }
 
 
@@ -12,9 +14,8 @@ body {
     background-color: #1F2937;
     height: 500px;
     width: 100%;
-    margin:
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 #header_logo_text {
@@ -152,13 +153,66 @@ a {
 }
 
 .quote {
-    color: gray;
+    color: #1F2937;
     margin: 50px;
     padding: 100px;
+    font-size: 15px; 
+    font-style: italic;
+    
 }
 
 #quote_author {
     text-align: right;
+}
+
+/******************** This is the beginning of the footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+.footer_box {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_box_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+   
+}
+
+.footer_box_text h2 {
+    margin-bottom: 0;
+}
+
+.footer_box_text p {
+    margin-top: 0;
+}
+
+.footer_box_button {
+    display: flex
+    width: 80px;
+    height: 30px;
+    border: solid white 5px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center; 
+
+   
 }
 
 
