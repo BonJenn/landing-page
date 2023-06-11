@@ -1,18 +1,18 @@
-* {
+
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
-/* This is the header and nav bar */
+/********************* This is the header and nav bar */
 
 .header {
     display: flex;
     background-color: #1F2937;
-    height: 350px;
+    height: 500px;
     width: 100%;
-    margin: 0;
+    margin:
     flex-direction: column;
     justify-content: center;
 }
@@ -98,3 +98,71 @@ a {
 #image_text {
     color: black;
 }
+
+/******************** This is the beginning of the second section */
+
+.second_section {
+    display: flex;
+    background: white;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#second_section_title {
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.second_section_media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image_container {
+    color: black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.image_container img {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+/******************** This is the beginning of the second section */
+
+.third_section {
+    display: flex;
+    background: lightgray;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: gray;
+    margin: 50px;
+    padding: 100px;
+}
+
+#quote_author {
+    text-align: right;
+}
+
+
+
+
+
+
